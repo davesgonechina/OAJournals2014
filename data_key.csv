@@ -1,0 +1,11 @@
+Column,Notes
+Key,Unique mostly-random key
+2014,January 1-June 30 only
+Start*,Earliest of claimed or observed year
+Grade,A: Apparently good. B: May need investigation. C: Highly questionable. DC: Ceased. DD: Apparently dying. DE: Erratic. DH: Hiatus?. DN: New?. DS: Small. E: Empty. EC:Empty/ceased. H: Hybrid. N: Not OA. O: Opaque. X: Unreachable/unworkable.
+Pay/Free/Unknown/NA,F: Free (no fee). N: Not applicable (Grades H-X). P: Pay (APC). U: Unknown (Grade C)
+APC*,Fee for American non-member 10-page full paper
+Group*,B: Biology. E&L: Earth & Life Sciences. E&T: Engineering & Technology.Gen: General. H: Humanities. M: Medicine. M&C: Math & Computer Science. Sci: Sciences. SS: Social Sciences
+Area*,G: General. H: Humanities & Social Sciences. M: Biomed. S: Sciences
+,
+*,These columns and Subject may be blank for grades E-X
