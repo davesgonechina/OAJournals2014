@@ -1,0 +1,46 @@
+---
+title       : 2014 OA Journal Data Analysis
+subtitle    : Based on Walt Crawford's datasets
+author      : Dave Lyons
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Open Access Journals
+
+Open Access journals, where the author or institution pays for publication and the resulting content is made publicly available for free, are a new phenomenon in scholarly publishing that have met with some controversy. Librarian Walt Crawford recently made available the spreadsheets from his 2014 survey of open access journals. This app allows users to better examine that data.
+
+--- .class #id 
+
+## Major Facets of OA Journals
+
+1. Subject Area
+2. Quality
+3. Article Processing Charges (APCs)
+
+--- .class #id 
+
+## The Data
+
+```{r}
+data <- getURL("https://raw.githubusercontent.com/davesgonechina/ShinyOA/master/doaj_journals.csv", ssl.verifypeer=0L, followlocation=1L)
+doajcsv <- read.csv(text = data)
+head(doajcsv)
+```
+
+
+--- .class #id 
+
+## Future Improvements
+
+The following features could be added based on the available data:
+
+1. Subject Area Drilldown
+2. Paid or Free
+3. The number of articles published is only available annually for a three-year period, so prediction models are difficult.
+
